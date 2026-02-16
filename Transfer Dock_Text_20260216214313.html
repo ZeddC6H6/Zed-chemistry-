@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Zed Chemistry - Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1754cf",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111621",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-[#0e121b] antialiased">
+<!-- Main Container (Mobile Max Width) -->
+<div class="relative flex h-auto min-h-screen w-full max-w-md mx-auto flex-col bg-background-light dark:bg-background-dark overflow-x-hidden pb-24 shadow-2xl">
+<!-- Header -->
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/10">
+<div class="flex items-center p-4 justify-between">
+<div class="flex items-center gap-3">
+<div class="bg-primary text-white p-2 rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined !text-[24px]">school</span>
+</div>
+<h1 class="text-primary text-xl font-bold leading-tight tracking-tight">Zed Chemistry</h1>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 text-[#4e6797] hover:bg-primary/10 rounded-full transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<div class="size-8 rounded-full bg-primary/20 border border-primary/30 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Student profile avatar smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCg56MsofyUON_-cKOCAnCdmychSCdWhijlAD49cyuVaC9wUu81BP2u3Frrm8DtS_iT7GdmXjTWstbl4wrMGIIyaOVxUbUBbrb1bvLAMlO9Du6sPdqQ1g-XGjXk2TSkAy11fNoosQ_sWP860mhDBNebrkPlz_bIfChFEOfP4Wvci-jid97PZpsXmj6XeGVAfGSDSPMSr_OQTzyVpB_jW74zJ88MKQnErKKlOfTLwnzwrozLEVzNVsg0tygpQZYaX6Y-vcAIM-V4lLX6"/>
+</div>
+</div>
+</div>
+<!-- Search Bar -->
+<div class="px-4 pb-3">
+<label class="flex flex-col w-full">
+<div class="flex w-full items-stretch rounded-xl h-12 bg-white dark:bg-[#1c2435] shadow-sm border border-primary/5">
+<div class="text-[#4e6797] flex items-center justify-center pl-4">
+<span class="material-symbols-outlined !text-[20px]">search</span>
+</div>
+<input class="form-input flex-1 border-none bg-transparent focus:ring-0 text-base font-normal placeholder:text-[#4e6797]/60" placeholder="Search lessons, topics, or formulas"/>
+</div>
+</label>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="p-4">
+<div class="relative overflow-hidden rounded-xl bg-primary shadow-lg group">
+<div class="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent z-10"></div>
+<div class="absolute right-0 top-0 h-full w-1/2 bg-cover bg-center" data-alt="Scientific lab equipment with blue lighting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAlVARwqh2Df6YO_iA8K9Sfv4oun7UonphMfGBPa-L6URjuhXjGbHOsYh9gfquETyd3yf1SQsQzRnKIR006Wcrkbxv-nrkp6XEWV1wXKFlfyQl69O_rtomSIotSj3CiKC_d3dWf2DS-kdr9NnwkLplj2MXcCCZzkjhwXuu2kvx5D2YfnJGondtN5hdcWw3AY-gduN8ofm2DqcBACOyUS1KMd1PygAnZHbtHdGD-pLE7n36DM7h-_uiV-CyDXSXMdLyc2Ea4UF6TiJrM');">
+</div>
+<div class="relative z-20 p-6 flex flex-col gap-2 max-w-[70%]">
+<span class="bg-white/20 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded w-fit">Recent Activity</span>
+<h2 class="text-white text-xl font-bold leading-tight">Welcome to your Chemistry Lab!</h2>
+<p class="text-white/80 text-sm font-light">Intro to Covalent Bonds</p>
+<button class="mt-2 flex w-fit items-center justify-center gap-2 rounded-lg bg-white px-4 py-2 text-primary text-sm font-bold shadow-md hover:bg-background-light transition-all">
+<span class="material-symbols-outlined !text-[18px] fill-1">play_arrow</span>
+<span>Resume Lesson</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Categories/Tabs -->
+<nav class="pb-2">
+<div class="flex overflow-x-auto hide-scrollbar px-4 gap-3 no-scrollbar">
+<a class="flex-none px-5 py-2 rounded-full bg-primary text-white text-sm font-semibold shadow-md shadow-primary/20" href="#">
+                    All Classes
+                </a>
+<a class="flex-none px-5 py-2 rounded-full bg-white dark:bg-[#1c2435] text-[#4e6797] text-sm font-medium border border-primary/5 hover:border-primary/20 transition-colors" href="#">
+                    Organic
+                </a>
+<a class="flex-none px-5 py-2 rounded-full bg-white dark:bg-[#1c2435] text-[#4e6797] text-sm font-medium border border-primary/5 hover:border-primary/20 transition-colors" href="#">
+                    Inorganic
+                </a>
+<a class="flex-none px-5 py-2 rounded-full bg-white dark:bg-[#1c2435] text-[#4e6797] text-sm font-medium border border-primary/5 hover:border-primary/20 transition-colors" href="#">
+                    Physical
+                </a>
+<a class="flex-none px-5 py-2 rounded-full bg-white dark:bg-[#1c2435] text-[#4e6797] text-sm font-medium border border-primary/5 hover:border-primary/20 transition-colors" href="#">
+                    Bio-Chem
+                </a>
+</div>
+</nav>
+<!-- Content Grid (Video Cards) -->
+<main class="p-4 grid grid-cols-1 gap-6">
+<!-- Video Card 1 -->
+<div class="bg-white dark:bg-[#1c2435] rounded-xl overflow-hidden shadow-sm border border-primary/5 group">
+<div class="relative aspect-video bg-cover bg-center" data-alt="Periodic table visualization graphic" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA2l9Wj_VvX57zEH8fR3BZ8hfndeZcCZJNT_J1X_UAEoEtiXSOca_ZU9wJ09eG46SeB81RJ1ZVQX4SquKIn4sjAg1y3ie4RxxfoxW4jX_hAKLa7puNeqVbPGPyuxgJcJrwxnQRBVOV8w_18LlnMARUmAfYChJGyoI1nVVu9rhSbK8F2aSLrHbOTMGKlYHe1TYUTtEyX9gITv3Maq83ICwtQXUeKfR6Kqj5hOuBeYJfSnhev2yghce_g2zQ1EJteo2MfoX5f6x8xfIW2');">
+<div class="absolute bottom-2 right-2 bg-black/70 text-white text-[10px] font-bold px-1.5 py-0.5 rounded">12:45</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/20">
+<div class="size-12 rounded-full bg-white/90 flex items-center justify-center text-primary shadow-xl">
+<span class="material-symbols-outlined !text-[32px] fill-1">play_circle</span>
+</div>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-[#0e121b] dark:text-white text-base font-bold leading-snug">Periodic Table Basics</h3>
+<p class="text-[#4e6797] text-xs mt-1">Foundational principles of atomic structure and group trends.</p>
+<div class="mt-4 flex items-center justify-between">
+<div class="flex items-center gap-1 text-[11px] text-[#4e6797] font-medium">
+<span class="material-symbols-outlined !text-[14px]">visibility</span>
+                            2.4k views
+                        </div>
+<button class="px-4 py-1.5 bg-primary/10 text-primary rounded-lg text-xs font-bold hover:bg-primary hover:text-white transition-all">
+                            Watch Now
+                        </button>
+</div>
+</div>
+</div>
+<!-- Video Card 2 -->
+<div class="bg-white dark:bg-[#1c2435] rounded-xl overflow-hidden shadow-sm border border-primary/5 group">
+<div class="relative aspect-video bg-cover bg-center" data-alt="Chemical reaction showing colorful smoke" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCDqnjaNox1mUE3doPAemIntl_zBjLdoFdwFc1kQeUKjPM8prv_XvITPMd8mK2rAefzIefQtS5dO3-irye8LQly45Vkm7yJ49u0FEPsWjqZHErhaGwrJSG8IoKzx6iKHRIRkiFX3buyp-9HJ25nVGrGcPxEwDt-lw8bwhgHVVS2a1dbGBGTlGFtGLsfg5SQxrv3eAGdCj-HjgDACwWNCTLvMeN3IrV2Ow8xztvKYt4x__BF0-oz3Au875vUlY8Nuq8JOWJPslv91mWf');">
+<div class="absolute bottom-2 right-2 bg-black/70 text-white text-[10px] font-bold px-1.5 py-0.5 rounded">08:20</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/20">
+<div class="size-12 rounded-full bg-white/90 flex items-center justify-center text-primary shadow-xl">
+<span class="material-symbols-outlined !text-[32px] fill-1">play_circle</span>
+</div>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-[#0e121b] dark:text-white text-base font-bold leading-snug">Chemical Reactions 101</h3>
+<p class="text-[#4e6797] text-xs mt-1">Understanding exothermic and endothermic energy changes.</p>
+<div class="mt-4 flex items-center justify-between">
+<div class="flex items-center gap-1 text-[11px] text-[#4e6797] font-medium">
+<span class="material-symbols-outlined !text-[14px]">visibility</span>
+                            1.8k views
+                        </div>
+<button class="px-4 py-1.5 bg-primary/10 text-primary rounded-lg text-xs font-bold hover:bg-primary hover:text-white transition-all">
+                            Watch Now
+                        </button>
+</div>
+</div>
+</div>
+<!-- Video Card 3 -->
+<div class="bg-white dark:bg-[#1c2435] rounded-xl overflow-hidden shadow-sm border border-primary/5 group">
+<div class="relative aspect-video bg-cover bg-center" data-alt="Microscopic view of molecular structures" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC_57AS41BT9nq_xMzEzYBc5fP_p69b-USxFkFsPng3e7pDSwQJdUnNxzKKAMHsF6mwRZneBmInB_NsQRqdOHlV2N3Nw-86jbfzR7CpXMIEA-GWZG18XM-3mSQtt2Axal-g3FaUaMNdC357LhaW_9J5duUoUORa1Iu7SGvHkUDv0G9y696Ln9MJS1qBpBHzcIiXx8cWw1vsByzR_Cxz5gLh42HUUOpUc4icd7igkqFGYiw9IzVtwkpRtFnL3ZtEzkx3opaEBPJP2a2m');">
+<div class="absolute bottom-2 right-2 bg-black/70 text-white text-[10px] font-bold px-1.5 py-0.5 rounded">15:10</div>
+</div>
+<div class="p-4">
+<h3 class="text-[#0e121b] dark:text-white text-base font-bold leading-snug">Stoichiometry Simplified</h3>
+<p class="text-[#4e6797] text-xs mt-1">Mastering mole-to-mole conversions and limiting reagents.</p>
+<div class="mt-4 flex items-center justify-between">
+<div class="flex items-center gap-1 text-[11px] text-[#4e6797] font-medium">
+<span class="material-symbols-outlined !text-[14px]">visibility</span>
+                            4.1k views
+                        </div>
+<button class="px-4 py-1.5 bg-primary/10 text-primary rounded-lg text-xs font-bold hover:bg-primary hover:text-white transition-all">
+                            Watch Now
+                        </button>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation -->
+<nav class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md bg-white/95 dark:bg-[#111621]/95 backdrop-blur-lg border-t border-primary/10 px-6 py-3 z-[100]">
+<div class="flex justify-between items-center">
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined fill-1">home</span>
+<span class="text-[10px] font-bold">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-[#4e6797]" href="#">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="text-[10px] font-medium">Library</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-[#4e6797]" href="#">
+<div class="p-2 -mt-8 rounded-full bg-primary text-white shadow-lg shadow-primary/30 border-4 border-background-light dark:border-background-dark">
+<span class="material-symbols-outlined !text-[28px]">edit_square</span>
+</div>
+<span class="text-[10px] font-medium mt-1">Practice</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-[#4e6797]" href="#">
+<span class="material-symbols-outlined">groups</span>
+<span class="text-[10px] font-medium">Community</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-[#4e6797]" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-medium">Profile</span>
+</a>
+</div>
+</nav>
+</div>
+</body></html>
